@@ -1,4 +1,5 @@
-baseURL = 'https://cocopirate.github.io'
-languageCode = 'en-us'
+baseURL = 'https://wwww.antstu.com/'
+languageCode = 'zh'
+defaultContentLanguage = 'zh'
 title = 'AntStu'
 theme = "ananke"
