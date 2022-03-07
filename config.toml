@@ -1,0 +1,4 @@
+baseURL = 'https://antstu.com/'
+languageCode = 'en-us'
+title = 'AntStu'
+theme = "ananke"
