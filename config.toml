@@ -1,5 +1,5 @@
 baseURL = 'https://wwww.antstu.com/'
 languageCode = 'zh'
 defaultContentLanguage = 'zh'
-title = 'AntStu'
-theme = "ananke"
+title = 'Ant Studio'
+theme = "hugo-book"
