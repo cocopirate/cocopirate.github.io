@@ -21,9 +21,9 @@
                     <h4 class="panel-title">
                         <a data-toggle="collapse" href="#collapse{{- .Name | md5 }}" aria-expanded="true">
                             <i class="icon icon-folder text-active"></i><i class="icon icon-folder-open text"></i>
-                            {{- .Name }}
+                            {{- print " " .Name }}
                         </a>
-                        <small class="text-muted">(Total {{- len .Pages }} articles)</small>
+                        <small class="text-muted">({{- T "total" }} {{- len .Pages }} {{- T "articles" }})</small>
                     </h4>
                 </div>
                 <div id="collapse{{ .Name | md5 }}" class="panel-collapse collapse in" role="tabpanel"

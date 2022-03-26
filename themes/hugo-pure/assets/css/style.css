@@ -6678,7 +6678,7 @@ body.okayNav-loaded {
 }
 
 .okayNav__nav--visible li:first-child {
-  margin-left: 15px;
+  margin-left: 0px;
 }
 
 .okayNav__nav--visible a {

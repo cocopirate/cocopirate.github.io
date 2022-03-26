@@ -2,7 +2,7 @@ baseURL = 'https://wwww.antstu.com/'
 languageCode = 'zh'
 defaultContentLanguage = 'zh' # en/zh/...
 copyright = 'CC BY 4.0 CN'
-title = 'Antstu'
+title = 'Lee'
 theme = 'hugo-pure'
 footnoteReturnLinkContents = "↩"
 hasCJKLanguage = true
@@ -111,10 +111,10 @@ widgets = [ "category", "tag", "recent_posts" ] # "board", "tag_cloud", "categor
   [params.profile]
   enabled = true # Whether to show profile bar
   avatar = "avatar.png" # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author = "Antstu"
-  author_title = "No One"
-  author_description = "Good Good Study, Day Day Up~"
-  location = " Hangzhou,China"
+  author = "Lee"
+  author_title = ""
+  author_description = "好好学习，天天向上~"
+  location = " 杭州，中国"
   follow = "https://www.antstu.com"
 
     # 社交媒体
@@ -131,7 +131,7 @@ widgets = [ "category", "tag", "recent_posts" ] # "board", "tag_cloud", "categor
       
 # Site
   [params.site]
-  title = "Hugo" # 页面title
+  title = "Lee" # 页面title
   favicon = "favicon.ico"
   board = "<p>这里是公告哦~</p>" # 公告牌
 
@@ -184,7 +184,7 @@ enable = false
 
 # 主题设置
   [params.config]
-  skin = "theme-black" # 主题颜色 theme-black theme-blue theme-green theme-purple
+  skin = "" # 主题颜色 theme-black theme-blue theme-green theme-purple
   layout = "main-center" # 布局方式 main-left main-center main-right
   excerpt_link = "Read More"
   toc = true

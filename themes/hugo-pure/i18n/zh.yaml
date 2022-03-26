@@ -1,3 +1,9 @@
+total:
+  other: 共
+articles:
+  other: 篇文章
+page:
+  other: 页码
 
 nav_all:
   other: All
@@ -5,7 +11,6 @@ nav_older:
   other: 下一篇
 nav_newer:
   other: 上一篇
-
 
 page_home:
   other: 主页
