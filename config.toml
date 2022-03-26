@@ -1,5 +1,193 @@
 baseURL = 'https://wwww.antstu.com/'
 languageCode = 'zh'
-defaultContentLanguage = 'zh'
-title = 'Ant Studio'
-theme = "hugo-book"
+defaultContentLanguage = 'zh' # en/zh/...
+copyright = 'CC BY 4.0 CN'
+title = 'Antstu'
+theme = 'hugo-pure'
+footnoteReturnLinkContents = "↩"
+hasCJKLanguage = true
+paginate = 7
+enableEmoji = true
+PygmentsCodeFences = false
+googleAnalytics = ""    # UA-XXXXXXXX-X 
+
+[permalinks]
+posts = "/:year/:month/:filename/"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[outputFormats.SearchIndex]  # use for search. recommend not to modify 
+mediaType = "application/json"
+baseName = "searchindex"
+isPlainText = true
+notAlternative = true
+
+[outputs]
+home = [ "HTML", "RSS", "SearchIndex" ] # recommend not to modify
+
+# 站点地图
+
+[sitemap]
+changefreq = "monthly"
+filename = "sitemap.xml"
+priority = 0.5
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+title = "主页"
+url = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "archives"
+name = "Archives"
+title = "归档"
+url = "/posts/"
+weight = 2
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+title = "分类"
+url = "/categories/"
+weight = 3
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+title = "标签"
+url = "/tags/"
+weight = 4
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+title = "关于"
+url = "/about/"
+weight = 5
+
+[params]
+since = 2021
+dateFormatToUse = "2006-01-02"
+enablePostCopyright = true
+copyright_link = "http://creativecommons.org/licenses/by/4.0/deed.zh"
+# the directory under content folder that you want to render
+mainSections = [ "posts" ]
+# Enable/Disable menu icons
+# Icon Reference: http://blog.cofess.com/hexo-theme-pure/iconfont/demo_fontclass.html
+enableMathJax = true #Enable mathjax support, to use mathematical notations
+sidebar = "right" # Sidebar
+# Sidebar only the following widgets. you can remove any you don't like it.
+widgets = [ "category", "tag", "recent_posts" ] # "board", "tag_cloud", "category", "tag", "recent_posts" 
+
+  [params.highlightjs]
+  langs = [ "python", "javascript" ] # refer to http://staticfile.org/, search highlight.js, already have highlight.min.js
+
+  [params.tag_cloud]
+  min = 8
+  max = 20
+
+  # Allows you to specify an override stylesheet
+  # put custom.css in $hugo_root_dir/static/
+  # customCSS: css/custom.css
+
+# 导航图标设置
+  [params.menuIcons]
+  enable = true
+  home = "icon-home-fill"
+  archives = "icon-archives-fill"
+  categories = "icon-folder"
+  tags = "icon-tags"
+  repository = "icon-project"
+  books = "icon-book-fill"
+  links = "icon-friendship"
+  about = "icon-cup-fill"
+
+# profile
+  [params.profile]
+  enabled = true # Whether to show profile bar
+  avatar = "avatar.png" # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
+  author = "Antstu"
+  author_title = "No One"
+  author_description = "Good Good Study, Day Day Up~"
+  location = " Hangzhou,China"
+  follow = "https://www.antstu.com"
+
+    # 社交媒体
+    [params.profile.social]
+    link_tooltip = false # enable the social link tooltip, options: true, false
+      [params.profile.social.links]
+      email = 'http://l353861350@gmail.com'
+      rss = "/index.xml"
+      wechat = 'http://wechat.com'
+      # github = "https://www.antstu.com"
+      # weibo = 'http://weibo.com/{yourid}'
+      # twitter = 'https://twitter.com/'
+      # facebook = '/'
+      
+# Site
+  [params.site]
+  title = "Hugo" # 页面title
+  favicon = "favicon.ico"
+  board = "<p>这里是公告哦~</p>" # 公告牌
+
+    [params.site.logo]
+    enabled = true
+    width = 40
+    height = 40
+    url = "favicon.ico"
+# 分享
+# Share
+  # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
+  [params.share]
+  enable = true
+  sites = "weibo,qq,wechat,facebook,twitter" # PC端显示的分享图标
+  mobile_sites = "weibo,qq,qzone" # 移动端显示的分享图标
+# disqus评论
+  [params.comment]
+  disqus = "your_disqus_name"
+
+    [params.comment.gitalk]
+
+    [params.comment.valine]
+    placeholder = "enjoy~"
+    avatar = "mm"
+    meta = "nick,mail"
+    pageSize = 10
+    visitor = false
+# 捐赠
+  [params.donate]
+  enable = false
+
+    [params.donate.wechatpay]
+    qrcode = "donate/wechatpayimg.png"
+    title = "微信支付"
+
+    [params.donate.alipay]
+    qrcode = "donate/alipayimg.png"
+    title = "支付宝"
+
+[params.pv.busuanzi]
+enable = false
+
+[params.pv.leancloud]
+enable = false
+
+  [params.postCount]
+  enable = true
+  wordcount = true
+  min2read = true
+
+# 主题设置
+  [params.config]
+  skin = "theme-black" # 主题颜色 theme-black theme-blue theme-green theme-purple
+  layout = "main-center" # 布局方式 main-left main-center main-right
+  excerpt_link = "Read More"
+  toc = true
+
+  [params.search]
+  enable = true # enable search. thanks for https://raw.githubusercontent.com/ppoffice/hexo-theme-icarus/master/source/js/insight.js
