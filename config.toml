@@ -9,7 +9,7 @@ hasCJKLanguage = true
 paginate = 7
 enableEmoji = true
 PygmentsCodeFences = false
-googleAnalytics = "G-Z9STK53PTE"    # UA-XXXXXXXX-X 
+googleAnalytics = "G-Z9STK53PTE"    # 谷歌分析
 
 [permalinks]
 posts = "/:year/:month/:filename/"
