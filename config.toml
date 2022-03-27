@@ -2,14 +2,14 @@ baseURL = 'https://www.antstu.com/'
 languageCode = 'zh'
 defaultContentLanguage = 'zh' # en/zh/...
 copyright = 'CC BY 4.0 CN'
-title = 'Lee'
+title = 'Antstu'
 theme = 'hugo-pure'
 footnoteReturnLinkContents = "↩"
 hasCJKLanguage = true
 paginate = 7
 enableEmoji = true
 PygmentsCodeFences = false
-googleAnalytics = ""    # UA-XXXXXXXX-X 
+googleAnalytics = "G-Z9STK53PTE"    # UA-XXXXXXXX-X 
 
 [permalinks]
 posts = "/:year/:month/:filename/"
@@ -111,7 +111,7 @@ widgets = [ "category", "tag", "recent_posts" ] # "board", "tag_cloud", "categor
   [params.profile]
   enabled = true # Whether to show profile bar
   avatar = "avatar.png" # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author = "Lee"
+  author = "Antstu"
   author_title = ""
   author_description = "好好学习，天天向上~"
   location = " 杭州，中国"
@@ -131,7 +131,7 @@ widgets = [ "category", "tag", "recent_posts" ] # "board", "tag_cloud", "categor
       
 # Site
   [params.site]
-  title = "Lee" # 页面title
+  title = "Antstu" # 页面title
   favicon = "favicon.ico"
   board = "<p>这里是公告哦~</p>" # 公告牌
 

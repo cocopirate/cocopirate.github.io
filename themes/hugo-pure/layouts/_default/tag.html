@@ -3,7 +3,7 @@
 <main class="main" role="main">
     <article class="content article article-tags post-type-list" itemscope="">
         <header class="article-header">
-            <h1 itemprop="name" class="hidden-xs">{{- .Title }}</h1>
+            <h1 itemprop="name" class="hidden-xs">{{- T "page_title_tag" }}：{{- .Title }}</h1>
             <p class="text-muted hidden-xs">{{- T "total_tag" (len $tags) }}</p>
             <nav role="navigation" id="nav-main" class="okayNav">
                 <ul>
@@ -16,11 +16,13 @@
         </header>
         <!-- /header -->
         <div class="article-body">
-            {{- range .Pages }}
-            <div class="col-md-6">
-                {{- partial "card-post.html" . }}
+            <div class="row">
+                {{- range .Pages }}
+                <div class="col-md-6">
+                    {{- partial "card-post.html" . }}
+                </div>
+                {{- end }}
             </div>
-            {{- end }}
         </div>
     </article>
 </main>

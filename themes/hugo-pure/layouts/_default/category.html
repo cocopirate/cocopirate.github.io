@@ -3,11 +3,11 @@
 <main class="main" role="main">
     <article class="article article-categories article-type-list" itemscope="">
         <header class="article-header">
-            <h1 itemprop="name" class="hidden-xs">{{- .Title }}</h1>
+            <h1 itemprop="name" class="hidden-xs">{{- T "categories" }}：{{- .Title }}</h1>
             <p class="text-muted hidden-xs">{{- T "total_category" (len $categories) }}</p>
             <nav role="navigation" id="nav-main" class="okayNav">
                 <ul>
-                    <li><a href="{{- "categories/" | relURL }}">{{- T "nav_all" }}</a></li>
+                    <li><a href='{{- "categories/" | relURL }}'>{{- T "nav_all" }}</a></li>
                     {{- range $categories }}
                     <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
                     {{- end }}
