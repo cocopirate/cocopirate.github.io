@@ -1,4 +1,4 @@
-baseURL = 'https://www.antstu.com/'
+baseURL = 'https://www.antstu.com'
 languageCode = 'zh'
 defaultContentLanguage = 'zh' # en/zh/...
 copyright = 'CC BY 4.0 CN'
@@ -9,7 +9,7 @@ hasCJKLanguage = true
 paginate = 7
 enableEmoji = true
 PygmentsCodeFences = false
-googleAnalytics = "G-Z9STK53PTE"    # 谷歌分析
+googleAnalytics = "UA-xxx"    # 只能使用UA开头的谷歌分析
 
 [permalinks]
 posts = "/:year/:month/:filename/"
@@ -71,6 +71,7 @@ url = "/about/"
 weight = 5
 
 [params]
+googleAnalyticsID = "G-Z9STK53PTE"
 since = 2021
 dateFormatToUse = "2006-01-02"
 enablePostCopyright = true
