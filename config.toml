@@ -9,7 +9,7 @@ hasCJKLanguage = true
 paginate = 7
 enableEmoji = true
 PygmentsCodeFences = false
-googleAnalytics = "UA-xxx"    # 只能使用UA开头的谷歌分析
+googleAnalytics = ""    # 只能使用UA开头的谷歌分析
 
 [permalinks]
 posts = "/:year/:month/:filename/"
@@ -71,7 +71,7 @@ url = "/about/"
 weight = 5
 
 [params]
-# googleAnalyticsID = "G-Z9STK53PTE"
+googleAnalyticsID = "G-Z9STK53PTE"
 since = 2021
 dateFormatToUse = "2006-01-02"
 enablePostCopyright = true

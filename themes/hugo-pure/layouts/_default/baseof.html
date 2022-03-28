@@ -11,12 +11,9 @@
     </title>
     {{ partial "head.html" . }}
     <!-- 兼容GA的G开头的跟踪ID -->
-    <!-- {{ if and (not .Site.IsServer) .Site.Params.GoogleAnalyticsID }}
+    {{ if and (not .Site.IsServer) .Site.Params.GoogleAnalyticsID }}
       {{ partial "analytics-gtag.html" . }}
-    {{ end }} -->
-    <!-- {{ if .Site.Params.GoogleAnalyticsID }}
-      {{ partial "analytics-gtag.html" . }}
-    {{ end }} -->
+    {{ end }}
   </head>
   {{- $.Scratch.Add "bodyClass" slice }}
   {{- $config := .Site.Params.config }}
