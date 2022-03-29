@@ -1,4 +1,4 @@
-baseURL = 'https://www.antstu.com/'
+baseURL = 'https://www.antstu.com'
 languageCode = 'zh'
 defaultContentLanguage = 'zh' # en/zh/...
 copyright = 'CC BY 4.0 CN'
