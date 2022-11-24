@@ -1,9 +1,9 @@
 baseURL = 'https://www.antstu.com'
 languageCode = 'zh'
 defaultContentLanguage = 'zh' # en/zh/...
-copyright = 'CC BY 4.0 CN'
-title = 'Antstu'
+title = 'AntStu'
 theme = 'hugo-pure'
+copyright = 'CC BY 4.0 CN'
 footnoteReturnLinkContents = "↩"
 hasCJKLanguage = true
 paginate = 7
@@ -86,7 +86,7 @@ sidebar = "right" # Sidebar
 widgets = [ "category", "tag", "recent_posts" ] # "board", "tag_cloud", "category", "tag", "recent_posts" 
 
   [params.highlightjs]
-  langs = [ "python", "javascript" ] # refer to http://staticfile.org/, search highlight.js, already have highlight.min.js
+  langs = [ "python", "javascript"] # refer to http://staticfile.org/, search highlight.js, already have highlight.min.js
 
   [params.tag_cloud]
   min = 8
@@ -112,7 +112,7 @@ widgets = [ "category", "tag", "recent_posts" ] # "board", "tag_cloud", "categor
   [params.profile]
   enabled = true # Whether to show profile bar
   avatar = "avatar.png" # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author = "Antstu"
+  author = "AntStu"
   author_title = ""
   author_description = "好好学习，天天向上~"
   location = " 杭州，中国"
@@ -132,7 +132,7 @@ widgets = [ "category", "tag", "recent_posts" ] # "board", "tag_cloud", "categor
       
 # Site
   [params.site]
-  title = "Antstu" # 页面title
+  title = "AntStu" # 页面title
   favicon = "favicon.ico"
   board = "<p>这里是公告哦~</p>" # 公告牌
 
@@ -150,10 +150,9 @@ widgets = [ "category", "tag", "recent_posts" ] # "board", "tag_cloud", "categor
   mobile_sites = "weibo,qq,qzone" # 移动端显示的分享图标
 # disqus评论
   [params.comment]
-  disqus = "your_disqus_name"
-
+  type = ''
+  disqus = ""
     [params.comment.gitalk]
-
     [params.comment.valine]
     placeholder = "enjoy~"
     avatar = "mm"
