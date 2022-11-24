@@ -1,18 +1,19 @@
-+++
-author = "AntStu"
-title = "Hugo中使用Google Analytics 4"
-date = "2021-03-26"
-description = "解决Hugo使用Google Analytics 4中G-开头的跟踪标识"
-tags = [
+---
+author: "AntStu"
+title: "Hugo中使用Google Analytics 4"
+draft: true
+date: "2021-03-26"
+description: "解决Hugo使用Google Analytics 4中G-开头的跟踪标识"
+tags: [
     "建站",
     "网站统计",
 ]
-categories = [
+categories: [
     "网站",
 ]
-series = ["教程"]
-aliases = ["migrate-from-jekyl"]
-+++
+series: ["教程"]
+aliases: ["migrate-from-jekyl"]
+---
 
 Google Analytics是一个由Google所提供的网站流量统计服务，通过在网站中埋入Google Analytics追踪码，可以方便查看网站流量信息，包括来源、用户、设备、访问路径等，对于网站入门来说是非常推荐使用的工具。
 

@@ -1,18 +1,18 @@
-+++
-author = "Lee"
-title = "Markdown语法教程"
-date = "2021-03-26"
-description = "这是一篇基于Markdown语法渲染成HTML的文章。"
-tags = [
+---
+author: "Lee"
+title: "Markdown语法教程"
+date: "2021-03-26"
+description: "这是一篇基于Markdown语法渲染成HTML的文章。"
+tags: [
     "Markdown",
     "语法",
 ]
-categories = [
+categories: [
     "语法",
 ]
-series = ["主题教程"]
-aliases = ["migrate-from-jekyl"]
-+++
+series: ["主题教程"]
+aliases: ["migrate-from-jekyl"]
+---
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
 <!--more-->
