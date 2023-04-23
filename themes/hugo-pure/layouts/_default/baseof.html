@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language }}">
   <head>
-    <title>
+    <!-- <title>
       {{- block "title" . -}}
-      {{ if .IsPage }}
-        {{ .Title }} - {{ .Site.Title }}
-      {{ else}}
-        {{ .Site.Title}}{{ end }}
+      {{ if .IsPage }}{{ .Title }} - {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}
       {{- end -}}
-    </title>
+    </title> -->
     {{ partial "head.html" . }}
     {{ if and (not .Site.IsServer) .Site.Params.GoogleAnalyticsID }}
       {{ partial "analytics-gtag.html" . }}
