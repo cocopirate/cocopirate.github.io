@@ -1,7 +1,9 @@
 baseURL = 'https://www.antstu.com'
 languageCode = 'zh'
 defaultContentLanguage = 'zh' # en/zh/...
-title = 'AntStu'
+title = '壹點漫談'
+keywords = '壹點漫談, AntStu, AntStu Blog, AntStu博客, AntStu的博客, AntStu的个人博客'
+description = '壹點漫談，AntStu的个人博客，记录学习笔记，分享技术心得，记录生活点滴。'
 theme = 'hugo-pure'
 copyright = 'CC BY 4.0 CN'
 footnoteReturnLinkContents = "↩"
