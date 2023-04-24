@@ -1,17 +1,13 @@
 ---
 title: "使用frp内网穿透"
-date: 2022-12-02T10:01:19+08:00
-draft: false
 keywords: ["frp", "内网穿透"]
 description: "使用frp内网穿透，将内网服务通过公网IP中转暴露到公网"
-tags: [
-    "frp",
-    "内网穿透",
-]
-categories: [
-    "运维",
-]
+tags: ["frp","内网穿透"]
+categories: ["运维"]
 series: ["教程"]
+draft: false
+date: 2022-12-02
+author: "壹點漫談"
 ---
 
 
