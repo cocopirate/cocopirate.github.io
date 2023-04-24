@@ -464,12 +464,14 @@ h2,
 
 h3,
 .h3 {
-  font-size: 22px;
+  /* font-size: 22px; */
+  font-size: 18px;
 }
 
 h4,
 .h4 {
-  font-size: 18px;
+  /* font-size: 18px; */
+  font-size: 16px;
 }
 
 h5,
@@ -6585,13 +6587,15 @@ body.no-sidebar .sidebar {
 
 .marked-body h1 {
   padding-bottom: 0.3em;
-  font-size: 2em;
+  /* font-size: 2em; */
+  font-size: 1.6em;
   border-bottom: 1px solid #f2f2f2;
 }
 
 .marked-body h2 {
   padding-bottom: 0.3em;
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
+  font-size: 1.4em;
   border-bottom: 1px solid #f2f2f2;
 }
 

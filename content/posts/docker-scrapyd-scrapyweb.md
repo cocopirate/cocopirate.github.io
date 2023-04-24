@@ -1,11 +1,13 @@
 ---
-title: "docker部署scrapyd+scrapyweb"
-date: 2022-11-24T11:05:22+08:00
-draft: false
+title: "Docker部署Scrapyd+Scrapyweb"
+keywords: ["scrapy","爬虫","docker","scrapyd","scrapyweb"]
 description: "通过docker快捷部署scrapyd和scrapyweb"
 tags: ["scrapy","爬虫","docker","scrapyd","scrapyweb"]
 categories: ["爬虫"]
 series: ["教程"]
+draft: false
+date: 2022-11-24
+author: "壹點漫談"
 ---
 
 

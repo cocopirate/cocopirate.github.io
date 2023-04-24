@@ -1,9 +1,10 @@
 ---
 title: "关于壹點漫談"
-date: 2019-02-28
-draft: false
+keywords: ["关于壹點漫談","壹點漫談"]
 description: "欢迎大家来到壹點漫談，我们追求的不是知识，而是无知。因为只有在无知的状态下，才能不断地学习和成长。"
 aliases: ["about-us"]
+draft: false
+date: 2019-02-28
 author: "壹點漫談"
 ---
 

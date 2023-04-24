@@ -1,12 +1,14 @@
 ---
 author: "Lee"
 title: "Hugo编写文档语法教程"
-date: "2021-03-26"
+keywords: ["Markdown","语法","Hugo"]
 description: "这是一篇适用Hugo编写文档语法的教程"
 tags: ["Markdown","语法","Hugo"]
 categories: ["语法"]
 series: ["教程"]
-aliases: ["migrate-from-jekyl"]
+draft: true
+date: 2021-03-26
+author: "壹點漫談"
 ---
 
 本文提供了在Hugo的内容文件中使用的基本的Markdown语法示例，方便编写文档时查询使用。
