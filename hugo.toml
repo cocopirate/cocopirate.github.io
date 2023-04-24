@@ -3,7 +3,7 @@ languageCode = 'zh'
 defaultContentLanguage = 'zh' # en/zh/...
 title = '壹點漫談'
 theme = 'hugo-pure'
-copyright = 'CC BY 4.0 CN'
+copyright = 'CC BY-NC 4.0'
 footnoteReturnLinkContents = "↩"
 hasCJKLanguage = true
 paginate = 7
@@ -112,21 +112,22 @@ widgets = [ "category", "tag", "recent_posts" ] # "board", "tag_cloud", "categor
 
 # profile
   [params.profile]
-  enabled = true # Whether to show profile bar
+  enabled = true # 是否启用个人信息展示
+  show_in_article = false # 是否在文章中展示
   avatar = "avatar.png" # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author = "壹點漫談"
   author_title = ""
   author_description = "好好学习，天天向上~"
-  location = " 杭州，中国, CN"
+  location = " 杭州,中国"
   follow = "https://www.antstu.com"
 
     # 社交媒体
     [params.profile.social]
     link_tooltip = false # enable the social link tooltip, options: true, false
       [params.profile.social.links]
-      email = 'http://l353861350@gmail.com'
+      email = 'http://limin1350@gmail.com'
       rss = "/index.xml"
-      wechat = 'http://wechat.com'
+      # wechat = 'http://wechat.com'
       # github = "https://www.antstu.com"
       # weibo = 'http://weibo.com/{yourid}'
       # twitter = 'https://twitter.com/'
@@ -134,7 +135,7 @@ widgets = [ "category", "tag", "recent_posts" ] # "board", "tag_cloud", "categor
       
 # Site
   [params.site]
-  title = "AntStu" # 页面title
+  title = "壹點漫談" # 页面title
   favicon = "favicon.ico"
   board = "<p>这里是公告哦~</p>" # 公告牌
 

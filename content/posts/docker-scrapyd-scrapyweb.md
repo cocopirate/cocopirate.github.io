@@ -3,13 +3,8 @@ title: "docker部署scrapyd+scrapyweb"
 date: 2022-11-24T11:05:22+08:00
 draft: false
 description: "通过docker快捷部署scrapyd和scrapyweb"
-tags: [
-    "scrapy",
-    "爬虫",
-]
-categories: [
-    "爬虫",
-]
+tags: ["scrapy","爬虫","docker","scrapyd","scrapyweb"]
+categories: ["爬虫"]
 series: ["教程"]
 ---
 
@@ -127,7 +122,7 @@ CMD scrapydweb
 
 在宿主机先通过`pip install scrapydweb`安装scrapydweb，安装后执行scrapydweb生成scrapydweb_settings_v10.py文件，修改文件中的SCRAPYD_SERVERS配置
 
-```shell
+``` shell
 # 其他配置...
 SCRAPYD_SERVERS = [
     'my_scrapyd:6800' # 使用容器的链接配置SCRAPYD_SERVERS地址
@@ -140,7 +135,7 @@ SCRAPYD_SERVERS = [
 * 将已创建的scrapyd容器与scrapydweb容器链接并命名为my_scrapyd；
 * 将宿主机的/root/scrapydweb目录挂载至容器的code目录，方便配置scrapydweb_settings_v10.py文件。
 
-```shell
+``` shell
 docker build -t scrapydweb .
 docker run -d -p 5000:5000 --link scrapyd:my_scrapyd -v /root/scrapydweb:/code --name scrapydweb scrapydweb
 ```
@@ -149,7 +144,7 @@ docker run -d -p 5000:5000 --link scrapyd:my_scrapyd -v /root/scrapydweb:/code -
 
 访问scrapyweb如果出现Http400处理方式：
 
-```shell
+``` shell
 pip install flask==2.0.2
 pip install flask-compress==1.12
 ```

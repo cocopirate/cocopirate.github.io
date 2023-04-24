@@ -16,7 +16,7 @@
   </ul>
 </blockquote>
 {{ $profile := .Site.Params.profile }}
-{{- with $profile.enabled }}
+{{- with $profile.show_in_article }}
 <div class="panel panel-default panel-badger">
   <div class="panel-body">
     <figure class="media">

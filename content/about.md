@@ -1,28 +1,20 @@
-+++
-title = "关于"
-description = "Hugo, the world’s fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["about-us","about-hugo","contact"]
-author = "Hugo Authors"
-+++
+---
+title: "关于壹點漫談"
+date: 2019-02-28
+draft: false
+description: "欢迎大家来到壹點漫談，我们追求的不是知识，而是无知。因为只有在无知的状态下，才能不断地学习和成长。"
+aliases: ["about-us"]
+author: "壹點漫談"
+---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+**壹點漫談**，这个名字听上去就像一个胡乱拼凑的词汇。它是由一群志同道合的年轻人创立的网站，旨在记录学习笔记、分享技术心得和记录生活点滴。
 
-Hugo makes use of a variety of open source projects including:
+如果你是一个技术爱好者，那么**壹點漫談**一定会让你眼前一亮。大量关于编程技术、网络安全、数据科学、人工智能等方面的文章可能都没有...这里有的可能都是些随意分享的文章，仅仅是作者自己的经验总结，当然也有来自于各种优秀的开源项目和技术社区的资料整理。这里就是一个技术大杂烩，无论你是初学者还是专家，都可以在这里找到有趣的内容。
 
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+当然，如果你对生活、阅读、旅行、音乐等方面也有兴趣，**壹點漫談**可能会让你失望。这里基本没有对生活的感悟和体验，偶尔作者可能会分享鸡毛蒜皮的事情。如果你有时候感到迷茫或者无聊，来这儿看看，说不定会有一些灵感和启示。
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+这里的作者们可不是死板的技术宅，他们会有有趣的段子和幽默的语录。在这里，你可以看到一群年轻人的热情、智慧和勇气，也可以和他们一起分享你自己的见解和经验。不仅可以交流技术，还可以聊聊生活中的趣事，感受一下“高科技+低调生活”的生活方式。
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
-
+最后，欢迎大家来到**壹點漫談**，让我们一起记录、分享、成长。记住，我们追求的不是知识，而是无知。因为只有在无知的状态下，才能不断地学习和成长。
 
 

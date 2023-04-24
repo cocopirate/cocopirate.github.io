@@ -23,12 +23,21 @@ series: ["教程"]
 
 # 服务端配置
 
-* 下载最新版本：`wget https://github.com/fatedier/frp/releases/download/v0.44.0/frp_0.44.0_linux_386.tar.gz`
-* 解压下载文件：`tar -zxvf frp_0.44.0_linux_386.tar.gz`
-* frps和frps.ini是客户端相关文件与配置
-* 进入解压目录配置frps.ini文件：
+下载最新版本
 
-```shell
+``` shell
+wget https://github.com/fatedier/frp/releases/download/v0.44.0/frp_0.44.0_linux_386.tar.gz
+```
+
+解压下载文件
+
+``` shell
+tar -zxvf frp_0.44.0_linux_386.tar.gz
+```
+
+frps和frps.ini是客户端相关文件与配置，进入解压目录配置frps.ini文件：
+
+{{< highlight shell >}}
 [common]
 # 绑定端口配置
 bind_port = 7000
@@ -45,14 +54,14 @@ enable_prometheus = true
 log_file = /var/log/frps.log
 log_level = info
 log_max_days = 3
-```
+{{< /highlight >}}
 
 * 在etc目录创建目录：`sudo mkdir -p /etc/frp`
 * 将frps.ini复制至/etc/frp目录：`sudo cp frps.ini /etc/frp`
 * 将解压文件中的frps目录复制至/usr/bin目录：`sudo cp frps /usr/bin`
 * 创建并编辑frps.service文件`vim /etc/systemd/system/frps.service`
 
-```shell
+{{< highlight shell >}}
 [Unit]
 # 服务名称，可自定义
 Description = frp server
@@ -66,7 +75,7 @@ ExecStart = /usr/bin/frps -c /etc/frp/frps.ini
 
 [Install]
 WantedBy = multi-user.target
-```
+{{< /highlight >}}
 
 * 启动frp：`systemctl start frps`
 * 停止frp：`systemctl stop frps`
@@ -82,7 +91,7 @@ WantedBy = multi-user.target
 * frpc和frpc.ini是客户端相关文件与配置
 * 配置frpc.ini文件
 
-```shell
+{{< highlight shell >}}
 [common]
 # 服务器的ip地址
 server_addr = <服务器IP>
@@ -108,7 +117,7 @@ plugin_crt_path = <服务器证书路径>.crt
 plugin_key_path = <服务器证书路径>.key
 plugin_host_header_rewrite = 127.0.0.1
 plugin_header_X-From-Where = frp
-```
+{{< /highlight >}}
 
 **SSL域名证书说明**
 
