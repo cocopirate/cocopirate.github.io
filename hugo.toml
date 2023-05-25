@@ -1,7 +1,7 @@
 baseURL = 'https://www.antstu.com'
 languageCode = 'zh'
 defaultContentLanguage = 'zh' # en/zh/...
-title = '壹點漫談'
+title = '一点漫谈_壹點漫談'
 theme = 'hugo-pure'
 copyright = 'CC BY-NC 4.0'
 footnoteReturnLinkContents = "↩"
@@ -73,8 +73,8 @@ weight = 5
 [params]
 googleAnalyticsID = "G-Z9STK53PTE"
 since = 2021
-keywords = ['壹點漫談', '一点漫谈','AntStu', 'AntStu Blog', 'AntStu博客', 'AntStu的博客', 'AntStu的个人博客']
-description = '壹點漫談，记录学习笔记，分享技术心得，记录生活点滴。'
+keywords = ['一点漫谈', '壹點漫談', 'AntStu', 'AntStu Blog', 'AntStu博客', 'AntStu的博客', 'AntStu的个人博客']
+description = '一点漫谈，记录学习笔记，分享技术心得，记录生活点滴。'
 dateFormatToUse = "2006-01-02"
 enablePostCopyright = true
 copyright_link = "http://creativecommons.org/licenses/by/4.0/deed.zh"
@@ -135,7 +135,7 @@ widgets = [ "category", "tag", "recent_posts" ] # "board", "tag_cloud", "categor
       
 # Site
   [params.site]
-  title = "壹點漫談" # 页面title
+  title = "一点漫谈_壹點漫談" # 页面title
   favicon = "favicon.ico"
   board = "<p>这里是公告哦~</p>" # 公告牌
 

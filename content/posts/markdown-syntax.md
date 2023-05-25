@@ -1,12 +1,12 @@
 ---
 author: "Lee"
-title: "Hugo编写文档语法教程"
+title: "Hugo编写文档语法"
 keywords: ["Markdown","语法","Hugo"]
 description: "这是一篇适用Hugo编写文档语法的教程"
 tags: ["Markdown","语法","Hugo"]
 categories: ["语法"]
 series: ["教程"]
-draft: true
+draft: false
 date: 2021-03-26
 author: "壹點漫談"
 ---
@@ -32,37 +32,38 @@ author: "壹點漫談"
 
 ——鲁迅 《狂人日记》
 
-## 引用
+## 引用块
 
-引用标签表示从其他来源引用的内容，可选地带有必须在`footer`或`cite`元素内的引用，并且可选地带有内联更改，例如注释和缩写。
+引用块表示从其他来源引用的内容，可选地带有必须在`footer`或`cite`元素内的引用，并且可选地带有内联更改，例如注释和缩写。
 
-#### 不注明出处的引用
+#### 不注明出处的引用块
 
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-> **Note** that you can use *Markdown syntax* within a blockquote.
+> 这里是引用块的内容。
+> **注意**，你可以在引用块中使用*Markdown语法*。
 
 #### 注明出处的引用
 
-> Don't communicate by sharing memory, share memory by communicating.</p>
-> — <cite>Rob Pike[^1]</cite>
+> 不要通过共享内存来进行通信，而是通过通信来共享内存
+> — <cite>罗布·派克[^1]</cite>
 
 
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
+[^1]: 以上引述摘自罗布·派克在2015年11月18日的Gopherfest[演讲](https://www.youtube.com/watch?v=PAAkCSZUG1c)。
 
 ## 表格
 
 Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
+表格不是Markdown规范的重要部分，但Hugo支持开箱即用。
 
-   Name | Age
+   姓名 | 年龄
 --------|------
-    Bob | 27
-  Alice | 23
+    鲍勃 | 27
+  爱丽丝 | 23
 
 #### 表格内部使用Markdown
 
-| Inline&nbsp;&nbsp;&nbsp;     | Markdown&nbsp;&nbsp;&nbsp;  | In&nbsp;&nbsp;&nbsp;                | Table      |
+| 斜体示例     | 加粗示例  | 划线示例       | 代码示例      |
 | ---------- | --------- | ----------------- | ---------- |
-| *斜体*  | **加粗**  | ~~划线~~&nbsp;&nbsp;&nbsp; | `code`     |
+| *斜体*  | **加粗**  | ~~划线~~ | `code`     |
 
 ## 代码块
 
