@@ -36,10 +36,28 @@ author: "壹點漫談"
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.0-1_all.deb
 sudo dpkg -i cuda-keyring_1.0-1_all.deb
 sudo apt-get update
-sudo apt-get -y install cuda=
+sudo apt-get -y install cuda=11.8.0-1
 ```
-apt-cache madison cuda 查看可安装的版本
 
+### 查看可安装的CUDA版本
+
+```bash
+apt-cache madison cuda 
+```
+
+### 卸载CUDA
+
+```bash
+sudo apt-get --purge remove "*cuda*" "*cublas*" "*cufft*" "*cufile*" "*curand*" \
+ "*cusolver*" "*cusparse*" "*gds-tools*" "*npp*" "*nvjpeg*" "nsight*" "*nvvm*"
+sudo apt-get autoremove
+```
+
+### 安装指定的驱动版本和CUDA版本
+
+```bash
+sudo apt-get install cuda-toolkit-11-8 cuda-drivers-520 --verbose-versions
+```
 
 ### 创建python虚拟环境
 
